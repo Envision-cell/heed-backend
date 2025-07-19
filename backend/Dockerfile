@@ -5,4 +5,4 @@ RUN npm ci
 COPY . .
 ENV PORT=4000
 EXPOSE 4000
-CMD ["node", "src/index.js"]
+CMD ["node", "server.js"]
